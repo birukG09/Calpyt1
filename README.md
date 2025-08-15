@@ -48,17 +48,15 @@
 
 ---
 
-## 🎬 Visual Demonstrations (GIF Placeholders)
+## 🎬 Visual Demonstrations 
 
-* **2D/3D Plots**
-  ![2D/3D Function Plot](https://media.giphy.com/media/3o7TKsQ4ZJka2fw0ko/giphy.gif)
+* **2D/3D Plots**(
 
 * **Control System Responses**
-  ![Control System Step Response](https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif)
+  !
 
 * **Optimization Convergence**
-  ![Gradient Descent Convergence](https://media.giphy.com/media/l0HlQ7LRt6xOTZfXK/giphy.gif)
-
+  
 ---
 
 ## 🚀 Quick Start
