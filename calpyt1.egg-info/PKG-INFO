@@ -1,0 +1,100 @@
+Metadata-Version: 2.4
+Name: calpyt1
+Version: 0.1.0
+Summary: A comprehensive Python mathematical computing framework for calculus applications
+Home-page: https://github.com/calpyt1/calpyt1
+Author: Calpyt1 Development Team
+Author-email: Calpyt1 Development Team <dev@calpyt1.org>
+License: MIT
+Project-URL: Bug Reports, https://github.com/calpyt1/calpyt1/issues
+Project-URL: Source, https://github.com/calpyt1/calpyt1
+Project-URL: Documentation, https://calpyt1.readthedocs.io/
+Keywords: mathematics,calculus,symbolic,numerical,engineering,physics,ai-ml
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: sympy>=1.11
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: plotly>=5.0.0
+Requires-Dist: jupyter>=1.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: click>=8.0.0
+Requires-Dist: prompt-toolkit>=3.0.0
+Requires-Dist: colorama>=0.4.0
+Requires-Dist: setuptools>=75.3.2
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: sphinx>=4.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Provides-Extra: notebooks
+Requires-Dist: jupyterlab>=3.0.0; extra == "notebooks"
+Requires-Dist: ipywidgets>=7.6.0; extra == "notebooks"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# Calpyt1 - Comprehensive Python Mathematical Computing Framework
+
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
+
+A next-level Python framework for symbolic, numerical, applied, and AI-integrated calculus. Supports engineering, automation, robotics, physics, finance, and machine learning applications.
+
+## 🌟 Features
+
+### Symbolic Calculus
+- **Derivatives**: Basic, higher-order, partial derivatives, chain rule, implicit differentiation
+- **Integration**: Indefinite, definite, multiple integrals, line integrals, surface integrals
+- **Limits**: Basic limits, L'Hôpital's rule, continuity analysis, asymptote detection
+- **Series**: Taylor/Maclaurin series, Fourier series, convergence analysis
+- **Advanced**: Gradient, Jacobian, Hessian matrices, critical point analysis
+
+### Numerical Methods
+- **Integration**: Adaptive quadrature, Simpson's rule, trapezoidal rule, Monte Carlo, Gaussian quadrature
+- **ODE Solving**: Euler, Runge-Kutta, adaptive methods, stiff solvers, systems of ODEs
+- **Optimization**: Unconstrained/constrained, gradient descent, genetic algorithms, simulated annealing
+- **Root Finding**: Bisection, Newton-Raphson, secant, Brent's method, polynomial roots
+
+### Visualization
+- **2D/3D Plotting**: Function plots, surface plots, contour plots
+- **Vector Fields**: Gradient fields, phase portraits
+- **Interactive**: Plotly-based dashboards and interactive visualizations
+- **Convergence**: Optimization and numerical method convergence analysis
+
+### Engineering Applications
+- **Control Systems**: Transfer functions, stability analysis
+- **Mechanical**: Kinematics, dynamics simulation
+- **Electrical**: RLC circuits, signal processing
+- **Thermodynamics**: Heat transfer, optimization problems
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/calpyt1/calpyt1.git
+cd calpyt1
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install in development mode
+pip install -e .

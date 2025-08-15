@@ -1,0 +1,2 @@
+[console_scripts]
+calpyt1 = calpyt1.cli.main:main

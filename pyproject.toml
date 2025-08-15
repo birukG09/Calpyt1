@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calpyt1"
+version = "0.1.0"
+description = "A comprehensive Python mathematical computing framework for calculus applications"
+authors = [{name = "Calpyt1 Development Team", email = "dev@calpyt1.org"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["mathematics", "calculus", "symbolic", "numerical", "engineering", "physics", "ai-ml"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "sympy>=1.11",
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "matplotlib>=3.5.0",
+    "plotly>=5.0.0",
+    "jupyter>=1.0.0",
+    "rich>=13.0.0",
+    "click>=8.0.0",
+    "prompt-toolkit>=3.0.0",
+    "colorama>=0.4.0",
+    "setuptools>=75.3.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "sphinx>=4.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+]
+notebooks = [
+    "jupyterlab>=3.0.0",
+    "ipywidgets>=7.6.0",
+]
+
+[project.scripts]
+calpyt1 = "calpyt1.cli.main:main"
+
+[project.urls]
+"Bug Reports" = "https://github.com/calpyt1/calpyt1/issues"
+"Source" = "https://github.com/calpyt1/calpyt1"
+"Documentation" = "https://calpyt1.readthedocs.io/"
