@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 
 **Calpyt1** is a **next-level Python framework** for **symbolic, numerical, applied, and AI-integrated calculus**, designed for **engineering, automation, robotics, physics, finance, and machine learning applications**. It combines symbolic math, numerical solvers, optimization, simulation, and interactive visualization in a single modular package.
-
+![img alt](https://github.com/birukG09/Calpyt1/blob/24b6ebf0f889cc27b45f8b09a9f2d100187a878b/20250909_0002_Calpyt1%20Python%20Framework_simple_compose_01k4nj0gzkejktm9sw997w8r1n.png)
 ---
 
 ## 🌟 Features
