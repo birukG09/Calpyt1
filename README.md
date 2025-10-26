@@ -179,5 +179,5 @@ git push origin feature-name
 * **Integrated Framework:** Symbolic + numeric + applied + AI-ready calculus
 * **Multi-Domain:** Engineering, robotics, physics, finance, AI/ML
 * **Modular & Extensible:** Easily add new modules and capabilities
-* **Interactive Examples:** Rich notebooks and GIF visualizations
+* **Interactive Examples:** Rich notebooks and GIF visualizations ,,,,
 
