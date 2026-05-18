@@ -1,4 +1,4 @@
-README.md
+README. Md
 pyproject.toml
 setup.py
 calpyt1/__init__.py
